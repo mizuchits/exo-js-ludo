@@ -1,0 +1,16 @@
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.slideBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.result {
+    padding: 5px;
+    font-size: 2rem;
+}
