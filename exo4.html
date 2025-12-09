@@ -16,23 +16,41 @@
         <a href="exo4.html">slider</a>
     </header>
     <main>
-        <table>
+        <table id="load">
             <tr>
-                <td>couleurs de fond</td>
+                <td>couleurs rouge</td>
                 <td class="slideBar">
                     <p>0</p>
-                    <input type="range" min="0" max="255">
+                    <input type="range" min="0" max="255" value="0" id="colorR">
                     <p>255</p>
                 </td>
-                <td rowspan="6" class="result">
-                    <p id="result">text</p>
+                <td rowspan="9" class="result">
+                    <div class="container">
+                        <p id="result">text</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>couleurs vert</td>
+                <td class="slideBar">
+                    <p>0</p>
+                    <input type="range" min="0" max="255" value="0" id="colorG">
+                    <p>255</p>
+                </td>
+            </tr>
+            <tr>
+                <td>couleurs bleu</td>
+                <td class="slideBar">
+                    <p>0</p>
+                    <input type="range" min="0" max="255" value="0" id="colorB">
+                    <p>255</p>
                 </td>
             </tr>
             <tr>
                 <td>padding</td>
                 <td class="slideBar">
                     <p>0</p>
-                    <input type="range" min="0" max="30">
+                    <input type="range" min="0" max="30" value="0" id="padding">
                     <p>30</p>
                 </td>
             </tr>
@@ -40,7 +58,7 @@
                 <td>height</td>
                 <td class="slideBar">
                     <p>0</p>
-                    <input type="range" min="0" max="200">
+                    <input type="range" min="0" max="200" value="0" id="height">
                     <p>200</p>
                 </td>
             </tr>
@@ -48,7 +66,7 @@
                 <td>width</td>
                 <td class="slideBar">
                     <p>0</p>
-                    <input type="range" min="0" max="200">
+                    <input type="range" min="0" max="200" value="0" id="width">
                     <p>200</p>
                 </td>
             </tr>
@@ -56,7 +74,7 @@
                 <td>Radius</td>
                 <td class="slideBar">
                     <p>0</p>
-                    <input type="range" min="0" max="30">
+                    <input type="range" min="0" max="30" value="0" id="radius">
                     <p>30</p>
                 </td>
             </tr>
@@ -64,7 +82,7 @@
                 <td>Rotation</td>
                 <td class="slideBar">
                     <p>0</p>
-                    <input type="range" min="0" max="360">
+                    <input type="range" min="0" max="360" value="0" id="rotate">
                     <p>360</p>
                 </td>
             </tr>

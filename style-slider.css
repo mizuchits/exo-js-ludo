@@ -11,6 +11,14 @@ th {
 }
 
 .result {
-    padding: 5px;
-    font-size: 2rem;
+    width: 400px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
